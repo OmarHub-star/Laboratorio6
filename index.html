@@ -3,24 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad 2</title>
+    <title>GTA VI - Todo lo que sabemos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-light d-flex flex-column min-vh-100">
 
-    <!-- Menú de navegación -->
-    <nav>
-        <ul>
-            <li><a href="#">pagina 1</a></li>
-            <li><a href="#">pagina 2</a></li>
-            <li><a href="#">pagina 3</a></li>
-        </ul>
+    <!-- Componente Bootstrap 1: Menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase" href="index.html">
+                <span class="text-info">GTA</span> VI Hub
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina1.html">Mapa (Página 1)</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina2.html">Personajes (Página 2)</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina3.html">Jugabilidad (Página 3)</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
+    <!-- Contenido Principal -->
+    <main class="container mt-5 text-center flex-grow-1">
+        <!-- Texto grande solicitado -->
+        <h1 class="display-3 fw-bold mb-4 text-dark">Regreso a Vice City</h1>
+        
+        <p class="lead col-lg-8 mx-auto mb-4 text-secondary">
+            Bienvenido al centro de información definitivo sobre Grand Theft Auto VI. Explora los detalles sobre el estado de Leonida, conoce a los nuevos protagonistas y descubre las innovaciones en la jugabilidad que redefinirán el mundo abierto.
+        </p>
+        
+        <!-- Imagen solicitada -->
+        <img src="https://picsum.photos/id/122/1000/400" class="img-fluid rounded shadow-lg border border-3 border-dark mb-5" alt="Ciudad de noche estilo Vice City">
+    </main>
 
-    <h1>Este es el texto grande solicitado</h1>
-
-
-    <img src="ruta_de_tu_imagen.jpg" alt="Imagen de la actividad">
-
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
+        <div class="container"><p class="mb-0">© 2026 GTA VI Hub - Proyecto Escolar</p></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

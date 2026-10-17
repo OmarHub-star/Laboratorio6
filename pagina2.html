@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protagonistas - GTA VI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase" href="index.html"><span class="text-info">GTA</span> VI Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina1.html">Mapa (Página 1)</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="pagina2.html">Personajes (Página 2)</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina3.html">Jugabilidad (Página 3)</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-5 flex-grow-1">
+        <h2 class="mb-4 border-bottom pb-2">Una Historia de Bonnie y Clyde</h2>
+        
+        <!-- Párrafo 1 -->
+        <p>Por primera vez en la era 3D de la franquicia, Grand Theft Auto VI introduce a una mujer como protagonista principal. La historia se centra en la dinámica de una pareja criminal que intenta sobrevivir y escalar en el inframundo de Leonida, recordando fuertemente a la clásica historia de Bonnie y Clyde.</p>
+        
+        <!-- Párrafo 2 -->
+        <p>Lucia es una mujer audaz y astuta, cuyo pasado está ligado al sistema penitenciario del estado. Junto a ella está su compañero, a quien la comunidad ha identificado como Jason. La confianza mutua será un tema central en la narrativa, obligando a los jugadores a tomar decisiones que afectarán su relación.</p>
+        
+        <!-- Párrafo 3 -->
+        <p>A nivel mecánico, se espera que el jugador pueda alternar entre Lucia y Jason de manera fluida durante el modo libre y las misiones cooperativas, combinando las habilidades únicas de cada uno para ejecutar robos complejos. Conoce más detalles de ellos a continuación:</p>
+
+        <!-- Componente Bootstrap 2: Accordion con 3 imágenes -->
+        <div class="accordion shadow-sm mb-5 mt-4" id="accordionPersonajes">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                        Lucia (Protagonista)
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionPersonajes">
+                    <div class="accordion-body text-center">
+                        <img src="https://picsum.photos/id/1005/800/250" class="img-fluid rounded mb-3 object-fit-cover" alt="Representación de Lucia">
+                        <p>Astuta y calculadora. Es el motor principal de la historia y quien toma la iniciativa en los golpes criminales a lo largo de Vice City.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                        Jason (Co-protagonista)
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionPersonajes">
+                    <div class="accordion-body text-center">
+                        <img src="https://picsum.photos/id/338/800/250" class="img-fluid rounded mb-3 object-fit-cover" alt="Representación de Jason">
+                        <p>El apoyo de Lucia. Aporta fuerza bruta y destreza técnica para conducir vehículos durante las fugas o manejar armamento pesado.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                        Facciones y Bandas Locales
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionPersonajes">
+                    <div class="accordion-body text-center">
+                        <img src="https://picsum.photos/id/342/800/250" class="img-fluid rounded mb-3 object-fit-cover" alt="Banda callejera">
+                        <p>Además de los protagonistas, Leonida está infestada de bandas callejeras, mafias adineradas y grupos rurales con los que habrá que negociar o combatir.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
+        <div class="container"><p class="mb-0">© 2026 GTA VI Hub</p></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
